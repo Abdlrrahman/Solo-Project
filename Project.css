@@ -1,4 +1,36 @@
-.keys {
-	color: black;
-	border-style: solid;
+body {
+	background-image: linear-gradient(to right, #59acff, #ff8285);
+}
+
+#key1 {
+  background-color: #59acff;
+  border: none;
+  color: black;
+  padding: 40px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+#key2 {
+  background-color: #ffff66;
+  border: none;
+  color: black;
+  padding: 40px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+#key3 {
+  background-color: #ff8285;
+  border: none;
+  color: black;
+  padding: 40px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
 }
