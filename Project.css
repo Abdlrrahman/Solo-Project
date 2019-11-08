@@ -1,5 +1,5 @@
 body {
-	background-image: linear-gradient(to right, #59acff, #ff8285);
+	background-image: linear-gradient(to right, #59acff, #ffff4d, #ff8285);
 }
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
 }
 
 #paper {
-  background-color: #ffff66;
+  background-color: #ffff1a;
   border: none;
   color: black;
   padding: 19px 43.5px;
@@ -72,6 +72,7 @@ h1 {
   font-size: 25px;
   border: 13px double gray;
   margin: 6px;
+  transition-delay: 3s;
 }
 
 #rock:hover {
