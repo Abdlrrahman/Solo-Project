@@ -2,30 +2,43 @@ function game() {
 	var loses = 0;
 	var wins = 0;
 	var userChoice = "";
-	var winner;
-	var computerChoice;
-
+	var computerChoice = Math.random();
+	
+	$("#result").html(wins + ' - ' + loses);
 	$('#rock').click(function() {
 		userChoice = 'rock';
-		$("#userResult").html('You chose is ' + userChoice + '.');
+		$("#userResult").html('Your chose is ' + userChoice + '.');
+		$("#computerResult").html("The computer's chose is " + opponent(computerChoice) + '.');
+		$("#finalresult").html(compare(userChoice,opponent(computerChoice)));
+		$("#result").html(wins + ' - ' + loses);
+		computerChoice = Math.random();
 	});
 	$('#paper').click(function() {
 		userChoice = 'paper';
-		$("#userResult").html('You chose is ' + userChoice + '.');
+		$("#userResult").html('Your chose is ' + userChoice + '.');
+		$("#computerResult").html("The computer's chose is " + opponent(computerChoice) + '.');
+		$("#finalresult").html(compare(userChoice,opponent(computerChoice)));
+		$("#result").html(wins + ' - ' + loses);
+		computerChoice = Math.random();
 	});
 	$('#scissors').click(function() {
 		userChoice = 'scissors';
-		$("#userResult").html('You chose is ' + userChoice + '.');
+		$("#userResult").html('Your chose is ' + userChoice + '.');
+		$("#computerResult").html("The computer's chose is " + opponent(computerChoice) + '.');
+		$("#finalresult").html(compare(userChoice,opponent(computerChoice)));
+		$("#result").html(wins + ' - ' + loses);
+		computerChoice = Math.random();
 	});
 
-	computerChoice = Math.random();
-	if (computerChoice < 0.34) {
-		computerChoice = "rock";
-	} else if(computerChoice <= 0.67) {
-		computerChoice = "paper";
-		} else {
-		computerChoice = "scissors";
-		}
+	var opponent = function(computerChoice) {
+		if (computerChoice < 0.34) {
+			return computerChoice = "rock";
+		} else if(computerChoice <= 0.67) {
+			return computerChoice = "paper";
+			} else {
+			return computerChoice = "scissors";
+			}
+	}
 
 	function compare(choice1,choice2) {
 	if (choice1 == choice2) {
@@ -57,8 +70,16 @@ function game() {
 	}
 };
 
-	$("#computerResult").html("The computer's chose is " + computerChoice + '.');
-
- winner = compare(userChoice,computerChoice);
+$('#reset').click(function() {
+	userChoice = ""
+	wins = 0;
+	loses = 0;
+	computerChoice = '';
+	$("#userResult").html('');
+	$("#computerResult").html('');
+	$("#finalresult").html('');
+	$("#result").html(wins + ' - ' + loses);
+})
+	
 }
 game();

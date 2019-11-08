@@ -3,7 +3,7 @@ body {
 }
 
 #rock {
-  background-color: #59acff;
+  background-color: #008CBA;
   border: none;
   color: black;
   padding: 40px 80px;
@@ -25,7 +25,7 @@ body {
 }
 
 #scissors {
-  background-color: #ff8285;
+  background-color: #f44336;
   border: none;
   color: black;
   padding: 40px 80px;
@@ -36,15 +36,14 @@ body {
 }
 
 #reset {
-  margin-top: 40px;
-  background-color: white;
+  background-color: #e7e7e7;
   border: none;
   color: black;
-  padding: 30px 60px;
+  padding: 40px 80px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .result {
@@ -57,4 +56,28 @@ body {
   font-family: digital;
   padding: 0px 5px 0px 5px;
   font-size: 25px;
+}
+
+#rock:hover {
+  background-color: white; 
+  color: black; 
+  border: 4px solid #008CBA;
+}
+
+#paper:hover {
+  background-color: white; 
+  color: black; 
+  border: 4px solid #ffff66;
+}
+
+#scissors:hover {
+  background-color: white; 
+  color: black; 
+  border: 4px solid #f44336;
+}
+
+#reset:hover {
+  background-color: white; 
+  color: black; 
+  border: 4px solid #008CBA;
 }
