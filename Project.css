@@ -1,5 +1,7 @@
 body {
-	background-image: linear-gradient(to right, #59acff, #ffff4d, #ff8285);
+	background-image: url('https://img.freepik.com/free-photo/blue-gradient-abstract-background-empty-room_1258-4436.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -12,27 +14,25 @@ h1 {
 }
 
 #rock {
-  background-color: #008CBA;
-  border: none;
-  color: black;
   padding: 19px 43.5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
   font-family: Serif;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxrmB1_zXv1lQV0wqSNURKppxgiq6MpArFrWutg4hyeJfJMtlV');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #paper {
   background-color: #ffff1a;
-  border: none;
   color: black;
   padding: 19px 43.5px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  font-family: Serif;
+  background-image: url('https://www.123freevectors.com/wp-content/original/127956-cool-orange-abstract-asymmetric-random-lines-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #scissors {
@@ -41,23 +41,19 @@ h1 {
   color: black;
   padding: 19px 43.5px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  font-family: Serif;
+  background-image: url('https://i.pinimg.com/564x/b3/98/fb/b398fb40a5cdf4dd2a3c8f6de1334058.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #reset {
   margin-top: 3px;
   background-color: #7c7c7c;
-  border: none;
-  color: black;
   padding: 18px 200px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  font-family: Serif;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLK07wWykqVuVLdrShtXswNRtpBc2PGNVjcO89tmz9FuZjfxyg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .result {
@@ -69,7 +65,8 @@ h1 {
   line-height: 24px;
   font-family: Serif;
   padding: 2px 2px 2px 2px;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
   border: 13px double gray;
   margin: 6px;
   transition-delay: 3s;
