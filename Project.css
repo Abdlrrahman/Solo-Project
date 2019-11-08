@@ -7,24 +7,28 @@
   height: 200px;
   width: 220px;
   background-color: white;
+  border-radius: 50%;
 }
 
 #paper {
   height: 200px;
   width: 220px;
   background-color: white;
+  border-radius: 50%;
 }
 
 #scissors {
   height: 200px;
   width: 220px;
   background-color: white;
+  border-radius: 50%;
 }
 
 .reset {
   height: 200px;
   width: 220px;
   background-color: white;
+  border-radius: 50%;
 }
 
 .result {

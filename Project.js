@@ -6,6 +6,9 @@ $(document).ready(function game() {
 
 	$("#result").html(wins + ' - ' + loses);
 	$('.moves').click(function() {
+		$("#userResult").html('');
+		$("#computerResult").html('');
+		$("#finalresult").html('');
 		userChoice = $(this).attr('value');
 		setTimeout(function(){$("#userResult").html('Your chose is ' + userChoice + '.');$('.moves').attr('disabled', true);}, 0);
 		setTimeout(function(){$("#computerResult").html("The computer's chose is " + opponent(computerChoice) + '.')}, 500);
