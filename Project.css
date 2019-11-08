@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    font-size: 240px;
+    font-size: 100px;
 }
 
 #rock {
@@ -61,6 +61,10 @@ h1 {
   font-family: digital;
   padding: 0px 5px 0px 5px;
   font-size: 25px;
+  width: 300px;
+  border: 15px double gray;
+  padding: 50px;
+  margin: 20px;
 }
 
 #rock:hover {
