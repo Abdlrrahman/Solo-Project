@@ -4,61 +4,43 @@ body {
   background-size: cover;
 }
 
-h1 {
-    font-size: 30px;
-}
-
 #logo {
   height: 240px;
   width: 60%;
 }
 
-#rock {
-  padding: 19px 43.5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  font-family: Serif;
+.rock {
+  height: 200px;
+  width: 220px;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxrmB1_zXv1lQV0wqSNURKppxgiq6MpArFrWutg4hyeJfJMtlV');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #paper {
-  background-color: #ffff1a;
-  color: black;
-  padding: 19px 43.5px;
-  text-align: center;
+  height: 200px;
+  width: 220px;
   background-image: url('https://www.123freevectors.com/wp-content/original/127956-cool-orange-abstract-asymmetric-random-lines-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #scissors {
-  background-color: #f44336;
-  border: none;
-  color: black;
-  padding: 19px 43.5px;
-  text-align: center;
+  height: 200px;
+  width: 220px;
   background-image: url('https://i.pinimg.com/564x/b3/98/fb/b398fb40a5cdf4dd2a3c8f6de1334058.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#reset {
-  margin-top: 3px;
-  background-color: #7c7c7c;
-  padding: 18px 200px;
-  text-align: center;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLK07wWykqVuVLdrShtXswNRtpBc2PGNVjcO89tmz9FuZjfxyg');
-  background-repeat: no-repeat;
-  background-size: cover;
+.reset {
+  height: 200px;
+  width: 220px;
 }
 
 .result {
-  width: 422.5px;
-  height: 50px;
+  width: 600px;
+  height: 40px;
   border-radius: 5px;
   margin-bottom: 3px;
   text-align: center;
@@ -69,7 +51,6 @@ h1 {
   font-weight: bold;
   border: 13px double gray;
   margin: 6px;
-  transition-delay: 3s;
 }
 
 #rock:hover {
