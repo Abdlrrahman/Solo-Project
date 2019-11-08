@@ -3,14 +3,18 @@ body {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 30px;
+}
+
+img {
+  size: 100px
 }
 
 #rock {
   background-color: #008CBA;
   border: none;
   color: black;
-  padding: 40px 80px;
+  padding: 20px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -21,7 +25,7 @@ h1 {
   background-color: #ffff66;
   border: none;
   color: black;
-  padding: 40px 80px;
+  padding: 20px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -32,7 +36,7 @@ h1 {
   background-color: #f44336;
   border: none;
   color: black;
-  padding: 40px 80px;
+  padding: 20px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -44,7 +48,7 @@ h1 {
   background-color: #7c7c7c;
   border: none;
   color: black;
-  padding: 40px 317.5px;
+  padding: 20px 197.5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -52,19 +56,17 @@ h1 {
 }
 
 .result {
-  width: 260px;
+  width: 200px;
   height: 55px;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
   text-align: center;
-  line-height: 34px;
+  line-height: 24px;
   font-family: digital;
-  padding: 0px 5px 0px 5px;
+  padding: 2px 2px 2px 2px;
   font-size: 25px;
-  width: 300px;
   border: 15px double gray;
-  padding: 50px;
-  margin: 20px;
+  margin: 6px;
 }
 
 #rock:hover {
