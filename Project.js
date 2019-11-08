@@ -3,7 +3,7 @@ function game() {
 	var wins = 0;
 	var userChoice = "";
 	var computerChoice = Math.random();
-	
+
 	$("#result").html(wins + ' - ' + loses);
 	$('#rock').click(function() {
 		userChoice = 'rock';
@@ -43,24 +43,24 @@ function game() {
 	function compare(choice1,choice2) {
 	if (choice1 == choice2) {
 		return "The result is a tie!";
-	} else if (choice1 == "rock"){
-		if (choice2 == "scissors") {
+	} else if (choice1 === "rock"){
+		if (choice2 === "scissors") {
 			wins++;
 			return "rock wins.";
 		} else {
 			loses++;
 			return "sorry. paper wins.";
 		}
-	} else if (choice1 == "paper") {
-		if (choice2 == "rock") {
+	} else if (choice1 === "paper") {
+		if (choice2 === "rock") {
 			wins++;
 			return "paper wins";
 		} else {
 			loses++;
 			return "sorry. scissors win.";
 		}
-	} else if (choice1 == "scissors") {
-		if (choice2 == "rock") {
+	} else if (choice1 === "scissors") {
+		if (choice2 === "rock") {
 			loses++;
 			return "sorry. rock wins";
 		} else {
