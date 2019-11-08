@@ -3,15 +3,14 @@ function game() {
 	var wins = 0;
 	var userChoice = "";
 	var computerChoice = Math.random();
-	var choices = ['rock', 'paper', 'scissors'];
 
 	$("#result").html(wins + ' - ' + loses);
 	$('.moves').click(function() {
 		userChoice = $(this).attr('value');;
-		$("#userResult").html('Your chose is ' + userChoice + '.');
-		$("#computerResult").html("The computer's chose is " + opponent(computerChoice) + '.');
-		$("#finalresult").html(compare(userChoice,opponent(computerChoice)));
-		$("#result").html(wins + ' - ' + loses);
+		setTimeout(function(){$("#userResult").html('Your chose is ' + userChoice + '.')}, 0);
+		setTimeout(function(){$("#computerResult").html("The computer's chose is " + opponent(computerChoice) + '.')}, 1000);
+		setTimeout(function(){$("#finalresult").html(compare(userChoice,opponent(computerChoice)))}, 2000);
+		setTimeout(function(){$("#result").html(wins + ' - ' + loses)}, 3000);
 		computerChoice = Math.random();
 	});
 
