@@ -6,41 +6,45 @@ h1 {
     font-size: 30px;
 }
 
-img {
-  size: 100px
+#logo {
+  height: 240px;
+  width: 60%;
 }
 
 #rock {
   background-color: #008CBA;
   border: none;
   color: black;
-  padding: 20px 40px;
+  padding: 19px 43.5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
+  font-family: Serif;
 }
 
 #paper {
   background-color: #ffff66;
   border: none;
   color: black;
-  padding: 20px 40px;
+  padding: 19px 43.5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
+  font-family: Serif;
 }
 
 #scissors {
   background-color: #f44336;
   border: none;
   color: black;
-  padding: 20px 40px;
+  padding: 19px 43.5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
+  font-family: Serif;
 }
 
 #reset {
@@ -48,24 +52,25 @@ img {
   background-color: #7c7c7c;
   border: none;
   color: black;
-  padding: 20px 197.5px;
+  padding: 18px 200px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
+  font-family: Serif;
 }
 
 .result {
-  width: 200px;
-  height: 55px;
+  width: 422.5px;
+  height: 50px;
   border-radius: 5px;
   margin-bottom: 3px;
   text-align: center;
   line-height: 24px;
-  font-family: digital;
+  font-family: Serif;
   padding: 2px 2px 2px 2px;
   font-size: 25px;
-  border: 15px double gray;
+  border: 13px double gray;
   margin: 6px;
 }
 
