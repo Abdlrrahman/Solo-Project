@@ -3,34 +3,6 @@
   width: 60%;
 }
 
-#rock {
-  height: 200px;
-  width: 220px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-#paper {
-  height: 200px;
-  width: 220px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-#scissors {
-  height: 200px;
-  width: 220px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.reset {
-  height: 200px;
-  width: 220px;
-  background-color: white;
-  border-radius: 50%;
-}
-
 .result {
   width: 600px;
   height: 40px;
@@ -45,18 +17,14 @@
   border: 13px double gray;
   margin: 6px;
 }
-#rock:hover {
-  background-color: lightblue;
+
+.move {
+  height: 200px;
+  width: 220px;
+  background-color: white;
+  border-radius: 50%;
 }
 
-#paper:hover {
-  background-color: lightblue;
-}
-
-#scissors:hover {
-  background-color: lightblue;
-}
-
-.reset:hover {
+.move:hover {
   background-color: lightblue;
 }
